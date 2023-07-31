@@ -97,6 +97,7 @@ input[type="search"] {
 
 .section-services li{
    list-style: none;
+   margin-left: 45px;
 }
 .section-services a{
    text-decoration: none;
@@ -109,3 +110,26 @@ input[type="search"] {
    grid-template-columns: repeat(2, 1fr);
    grid-gap: 15px; 
 }
+
+.section-services i{
+   font-size: 35px;
+   padding-bottom: 15px;
+}
+
+footer{
+   background-color: var(--color-secundario);
+   color: var(--white-color);
+   display: flex;
+   justify-content: space-between;
+   height: 270px;
+}
+
+footer li{
+   list-style: none;
+}
+
+footer h3{
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
