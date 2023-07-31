@@ -10,6 +10,10 @@
    padding: 0;
 }
 
+body{
+   font-family: "GT America Standard", sans-serif;
+}
+
 nav{
    background-color: var(--color-secundario);
    padding: 10px;
@@ -21,13 +25,13 @@ nav img{
    width: 32px;
 }
 
-ul {
+nav ul {
    list-style: none; /* Quita las viñetas predeterminadas de la lista */
    display: flex; /* Convierte la lista en una fila horizontal */
    justify-content: space-around; /* Distribuye los elementos equitativamente en la navbar */
 }
 
-li{
+nav li{
    font-size: 18px;
 }
 
@@ -63,4 +67,45 @@ a:hover {
    color: var(--white-color);
    font-size: 18px;
    padding: 5px;
+}
+
+main{
+   background-color: var(--gray-ligth-color);
+}
+.div-search-container{
+   height: 200px;
+   text-align: center;
+}
+
+.div-search-container h1{
+   padding-top: 50px;
+   font-size: 45px;
+}
+
+input[type="search"] {
+   color: #000;
+   background-color: #fff;
+   font-size: 16px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   width: 450px;
+}
+
+.section-services{
+   background-color: var(--white-color);
+}
+
+.section-services li{
+   list-style: none;
+}
+.section-services a{
+   text-decoration: none;
+   background-color: var(--white-color);
+   color: var(--color-secundario);
+}
+
+.div-list-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 20px; 
 }
